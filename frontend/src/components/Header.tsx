@@ -37,7 +37,7 @@ const Header: React.FC<HeaderProps> = ({
               />
               <div className="ml-3 pl-3 border-l border-muted-foreground/20 flex items-center">
                 <LanguageSwitcher />
-                <a
+                {/* <a
                   href="https://github.com/zaunist/zmail"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -46,7 +46,7 @@ const Header: React.FC<HeaderProps> = ({
                   title="GitHub"
                 >
                   <i className="fab fa-github text-base"></i>
-                </a>
+                </a> */}
               </div>
             </div>
           )}
