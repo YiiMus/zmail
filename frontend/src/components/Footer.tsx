@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
     <footer className="border-t py-6">
       <Container>
         <div className="text-center text-sm text-muted-foreground">
-          <p className="mb-2">© {year} {t('app.title')}</p>
+          <p className="mb-2">© {year} Powered by  <a className='hover:underline' href="https://github.com/zaunist/zmail" target="_blank">{t('app.title')}</a></p>
           {/* <div className="flex justify-center items-center space-x-4">
             <a 
               href="https://zaunist.com" 
